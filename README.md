@@ -41,7 +41,9 @@ Fix python UnicodeDecodeError
 ---------------------------------
 
 if you meet `UnicodeDecodeError: 'utf8' codec can't decode byte 0xb9 in position 14: invalid start byte` when opening a file with vim
+
 you must add this line in your .vimrc
+
 `set enc=utf-8`
 
 
